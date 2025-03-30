@@ -24,14 +24,7 @@
     transition: 0.3s all ease;
 }
 
-.start-btn:hover{
-    background-color: #fff;
-    color:#222;
-    transition: 0.3s all ease;
-    scale: 105%;
-    transform: translateY(5px);
-    box-shadow: 0px 0px 41px -9px rgba(255, 255, 255, 0.5);
-}
+
 
 .start-btn:active{
     background-color: #150344;
@@ -67,6 +60,16 @@
     border-radius: 30px;
     margin-top: 10px;
 
+}
+@media(hover:hover){
+    .start-btn:hover{
+        background-color: #fff;
+        color:#222;
+        transition: 0.3s all ease;
+        scale: 105%;
+        transform: translateY(5px);
+        box-shadow: 0px 0px 41px -9px rgba(255, 255, 255, 0.5);
+    }
 }
 
 @media(max-width:950px){

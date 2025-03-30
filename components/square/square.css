@@ -16,13 +16,15 @@
 
 }
 
-.square:hover {
-    background-color: #aaaaaa;
-    transition: 0.3s all ease-in-out;
-    scale: 104%;
-    transform: translateY(3px);
-}
 
+@media(hover:hover){
+    .square:hover {
+        background-color: #aaaaaa;
+        transition: 0.3s all ease-in-out;
+        scale: 104%;
+        transform: translateY(3px);
+    }
+}
 .square:active {
     background-color: #ffffff;
     transition: 0.2s all ease-in-out;
