@@ -1,0 +1,330 @@
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.start-btn{
+    width: 290px;
+    height: 80px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background-color: #24066e;
+    border-radius: 35px;
+    border-style: none;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 20px;
+    margin-top: 20px;
+    transition: 0.3s all ease;
+}
+
+.start-btn:hover{
+    background-color: #fff;
+    color:#222;
+    transition: 0.3s all ease;
+    scale: 105%;
+    transform: translateY(5px);
+    box-shadow: 0px 0px 41px -9px rgba(255, 255, 255, 0.5);
+}
+
+.start-btn:active{
+    background-color: #150344;
+    color: white;
+    transition: 0.2s all ease-in-out;
+    scale: 98%;
+    
+    box-shadow: 0px 0px 41px -9px rgba(1, 1, 1, 0.5);
+}
+
+.current{
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.player{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+    text-align: center;
+}
+
+.score-box{
+    width:35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    padding:5px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}
+
+@media(max-width:950px){
+    .current{
+        color: white;
+        font-weight: 500;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .start-btn{
+        width: 200px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 35px;
+        border-style: none;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+
+    .player{
+        color: white;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 20px;
+    }
+    
+    .score-box{
+        width:35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 30px;
+        margin-top: 10px;
+    
+    }
+}
+
+@media(max-width:700px){
+    .current{
+        color: white;
+        font-weight: 500;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .start-btn{
+        width: 200px;
+        height: 60px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 35px;
+        border-style: none;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+
+    .player{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px;
+    }
+    
+    .score-box{
+        width:45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 25px;
+        margin-top: 10px;
+    
+    }
+}
+
+@media(max-width:500px){
+    .current{
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        margin-top: 18px;
+    }
+
+    .start-btn{
+        width: 160px;
+        height: 40px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 35px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+
+    .player{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px;
+    }
+    
+    .score-box{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 25px;
+        margin-top: 10px;
+    
+    }
+}
+
+
+@media(max-width:400px){
+    .current{
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    .start-btn{
+        width: 160px;
+        height: 40px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 25px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+
+    .player{
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .score-box{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 25px;
+        margin-top: 10px;
+    
+    }
+}
+@media(max-width:327px){
+
+    .current{
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    .start-btn{
+        width: 160px;
+        height: 40px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 25px;
+        border-style: none;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+
+    .player{
+        color: white;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 2px;
+        text-align: center;
+    }
+    
+    .score-box{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 15px;
+        margin-top: 10px;
+    
+    }
+}
+
+@media(max-width:236px){
+    .player{
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        margin: 2px;
+        text-align: center;
+    }
+    
+    .score-box{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #fff;
+        padding:5px;
+        border-radius: 15px;
+        margin-top: 10px;
+    
+    }
+    .start-btn{
+        width: 120px;
+        height: 32px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        background-color: #24066e;
+        border-radius: 25px;
+        border-style: none;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 20px;
+        margin-top: 20px;
+        transition: 0.3s all ease;
+    }
+}

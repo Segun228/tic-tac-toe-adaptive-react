@@ -1,0 +1,136 @@
+.square{
+    width: 11vw;
+    height: 11vw;
+    background-color: #fff;
+    border: 1px solid #222;
+    cursor: pointer;
+    outline: none;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    padding: 20px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+
+}
+
+.square:hover {
+    background-color: #aaaaaa;
+    transition: 0.3s all ease-in-out;
+    scale: 104%;
+    transform: translateY(3px);
+}
+
+.square:active {
+    background-color: #ffffff;
+    transition: 0.2s all ease-in-out;
+    scale: 95%;
+    transform: translateY(-3px);
+}
+
+@media(max-width:950px){
+    .square{
+        font-weight:500;
+        font-size: 70px;
+        border-radius: 27px;
+    }
+    
+}
+
+@media(max-width:700px){
+    .square{
+        font-weight:500;
+        font-size: 50px;
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .square{
+        font-weight:500;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+}
+
+@media(max-width:400px){
+    .square{
+        width: 11vw;
+        height: 11vw;
+        background-color: #fff;
+        border: 1px solid #222;
+        cursor: pointer;
+        outline: none;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+    
+    }
+}
+
+@media(max-width:375px){
+    .square{
+        width: 12.5vw;
+        height: 12.5vw;
+        background-color: #fff;
+        border: 1px solid #222;
+        cursor: pointer;
+        outline: none;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+    
+    }
+}
+
+@media(max-width:327px){
+    .square{
+        width: 15vw;
+        height: 15vw;
+        background-color: #fff;
+        border: 1px solid #222;
+        cursor: pointer;
+        outline: none;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+    
+    }
+}
+
+@media(max-width:272px){
+    .square{
+        width: 13vw;
+        height: 13vw;
+        background-color: #fff;
+        border: 1px solid #222;
+        cursor: pointer;
+        outline: none;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: 500;
+        transition: 0.3s all ease-in-out;
+    
+    }
+}

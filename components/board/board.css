@@ -1,0 +1,87 @@
+.board{
+    width: 35%;
+    height: 35%;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.7vw;
+    row-gap: 0.7vw;
+    margin-top: 30px;
+}
+@media(max-width:375px){
+    .board{
+        width: 40%;
+        height: 40%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:327px){
+    .board{
+        width: 48%;
+        height: 48%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:272px){
+    .board{
+        width: 50%;
+        height: 50%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:259px){
+    .board{
+        width: 55%;
+        height: 55%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:236px){
+    .board{
+        width: 58%;
+        height: 58%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:222px){
+    .board{
+        width: 61%;
+        height: 61%;
+        background-color: #222;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.7vw;
+        row-gap: 0.7vw;
+        margin-top: 30px;
+    }
+}
