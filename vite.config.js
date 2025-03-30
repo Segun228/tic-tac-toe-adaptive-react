@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
+    allowedHosts: ['tic-tac-toe-adaptive-react.onrender.com'],
     watch: {
       usePolling: true,
     },
